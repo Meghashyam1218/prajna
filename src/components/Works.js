@@ -6,7 +6,7 @@ const Works = () => {
         {
             title: "ChecMate",
             description: "A full-stack mobile application, utilizing machine learning-based image processing techniques. Applied OCR with Tesseract for accurate text recognition and field detection.",
-            image: "/api/placeholder/600/400?text=Analytics+Platform",
+            image: "checmate-logo.png",
             liveUrl: "#",
             codeUrl: "#",
             tags: ["Flutter", "Flask", "Tesseract", "OpenCV", "MongoDB", "AWS"]
@@ -32,7 +32,7 @@ const Works = () => {
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                    className="w-full h-23 object-cover transform group-hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </div>
